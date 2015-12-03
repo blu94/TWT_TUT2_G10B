@@ -1,1 +1,93 @@
 
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+	<form action="submit.php" method="POST">
+		<table border=0>
+			<tr>
+				<td colspan=2><b>What kind of car would you like to buy?</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+				<p>
+					<input type="radio" name="car" value="Proton" checked/>Proton
+					<input type="radio" name="car" value="Honda" />Honda
+					<input type="radio" name="car" value="Ferrari"/>Ferarri
+					<input type="radio" name="car" value="Ford" />Ford
+				</p>
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan=2>
+					<b>What colour do you want on car?</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+					<p>
+					<select name="color">
+					  <option value="White">White</option>
+					  <option value="Red">Red</option>
+					  <option value="Black" selected>Black</option>
+					  <option value="Blue">Blue</option>
+					</select>
+					Other:
+					<input type="text" name="others" value=""/>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2>
+					<b>Enter xxx of your preferred car?</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+					<p>
+					<textarea name="xxx" cols="60" rows="5">
+					</textarea>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2>
+					<b>Tell us how to get in touch with you:</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+					<p>
+					Name&nbsp;<input type="text" name="usename" value=""/><br/><br/>
+					Email&nbsp;<input type="text" name="useemail" value=""/><br/><br/>
+					Tel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="usetel" value=""/><br/><br/>
+					Fax&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="usefax" value=""/><br/><br/>
+					<input type="checkbox" name="opt" value="check">
+					Please contact me as soon as possible regarding this matter.
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="Enter">
+					
+				</td>
+				<td>
+					<input type="reset" value="Clear">
+				</td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>
